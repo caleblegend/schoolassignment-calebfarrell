@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Solar System - Caleb Farrell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Solar System</h1>
+        <nav>
+            <ul>
+                <li><a href="https://solarsystem.nasa.gov">NASA Solar System</a></li>
+                <li><a href="https://www.esa.int">European Space Agency</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>The Solar System consists of the Sun and everything that orbits it.</p>
+        </section>
+
+        <section>
+            <h2>Planets List</h2>
+            <ul>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Featured Planets</h2>
+            <article>
+                <h3>Earth</h3>
+                <img src="IMG/earth.jpg" alt="Earth from space" width="300">
+                <p>Earth is our home planet. It is the third planet from the Sun.</p>
+            </article>
+            <article>
+                <h3>Mars</h3>
+                <img src="IMG/mars.jpg" alt="Surface of Mars" width="300">
+                <p>Mars is known as the Red Planet &ndash; it might support life one day!</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Planet Comparison Table</h2>
+            <table>
+                <caption>Earth vs Mars</caption>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Earth</th>
+                        <th>Mars</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Atmosphere</td>
+                        <td>Nitrogen &amp; Oxygen</td>
+                        <td>Carbon Dioxide</td>
+                    </tr>
+                    <tr>
+                        <td>Moons</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label>Choose a planet to visit:</label><br>
+                <input type="radio" id="visitEarth" name="planet" value="Earth">
+                <label for="visitEarth">Earth</label><br>
+                <input type="radio" id="visitMars" name="planet" value="Mars">
+                <label for="visitMars">Mars</label><br><br>
+
+                <label for="newsletter">Subscribe to updates:</label><br>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
+
+                <label for="planet-select">Select your favorite planet:</label><br>
+                <select id="planet-select" name="favorite">
+                    <option value="earth">Earth</option>
+                    <option value="mars">Mars</option>
+                    <option value="venus">Venus</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Caleb Farrell | Space Explorers Club</p>
+    </footer>
+</body>
+</html>
